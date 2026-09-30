@@ -1,0 +1,18 @@
+{
+ "id": "dhawal2209000/almc-dense-k20",
+ "title": "almc-dense-k20",
+ "code_file": "dense.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": false,
+ "machine_shape": "NvidiaTeslaT4",
+ "dataset_sources": [
+  "dhawal2209000/almc-dense-data",
+  "dhawal2209000/almc-bi-model",
+  "dhawal2209000/almc-ce-model"
+ ],
+ "competition_sources": [],
+ "kernel_sources": []
+}

@@ -1,0 +1,237 @@
+{
+ "slices": [
+  {
+   "hno": "differ",
+   "nm": "name90",
+   "pbin": "(0.4, 0.6]",
+   "n": 58,
+   "mean_p": 0.49399998784065247,
+   "true_rate": 0.707,
+   "gap": 0.213
+  },
+  {
+   "hno": "both_missing",
+   "nm": "name<90",
+   "pbin": "(0.2, 0.4]",
+   "n": 52,
+   "mean_p": 0.29100000858306885,
+   "true_rate": 0.385,
+   "gap": 0.094
+  },
+  {
+   "hno": "one_missing",
+   "nm": "name<90",
+   "pbin": "(0.6, 0.8]",
+   "n": 155,
+   "mean_p": 0.6589999794960022,
+   "true_rate": 0.735,
+   "gap": 0.076
+  },
+  {
+   "hno": "differ",
+   "nm": "name90",
+   "pbin": "(0.2, 0.4]",
+   "n": 82,
+   "mean_p": 0.2849999964237213,
+   "true_rate": 0.354,
+   "gap": 0.069
+  },
+  {
+   "hno": "differ",
+   "nm": "name<90",
+   "pbin": "(0.6, 0.8]",
+   "n": 87,
+   "mean_p": 0.6669999957084656,
+   "true_rate": 0.713,
+   "gap": 0.046
+  },
+  {
+   "hno": "differ",
+   "nm": "name<90",
+   "pbin": "(0.4, 0.6]",
+   "n": 198,
+   "mean_p": 0.4909999966621399,
+   "true_rate": 0.53,
+   "gap": 0.039
+  },
+  {
+   "hno": "one_missing",
+   "nm": "name=100",
+   "pbin": "(0.6, 0.8]",
+   "n": 493,
+   "mean_p": 0.6600000262260437,
+   "true_rate": 0.692,
+   "gap": 0.032
+  },
+  {
+   "hno": "differ",
+   "nm": "name=100",
+   "pbin": "(0.6, 0.8]",
+   "n": 176,
+   "mean_p": 0.6740000247955322,
+   "true_rate": 0.699,
+   "gap": 0.025
+  },
+  {
+   "hno": "one_missing",
+   "nm": "name90",
+   "pbin": "(0.2, 0.4]",
+   "n": 617,
+   "mean_p": 0.2919999957084656,
+   "true_rate": 0.305,
+   "gap": 0.013
+  },
+  {
+   "hno": "one_missing",
+   "nm": "name<90",
+   "pbin": "(0.2, 0.4]",
+   "n": 1045,
+   "mean_p": 0.28700000047683716,
+   "true_rate": 0.299,
+   "gap": 0.012
+  },
+  {
+   "hno": "one_missing",
+   "nm": "name<90",
+   "pbin": "(0.4, 0.6]",
+   "n": 577,
+   "mean_p": 0.49300000071525574,
+   "true_rate": 0.499,
+   "gap": 0.006
+  },
+  {
+   "hno": "both_missing",
+   "nm": "name=100",
+   "pbin": "(0.2, 0.4]",
+   "n": 122,
+   "mean_p": 0.3089999854564667,
+   "true_rate": 0.303,
+   "gap": -0.006
+  },
+  {
+   "hno": "differ",
+   "nm": "name<90",
+   "pbin": "(0.2, 0.4]",
+   "n": 366,
+   "mean_p": 0.29499998688697815,
+   "true_rate": 0.284,
+   "gap": -0.011
+  },
+  {
+   "hno": "one_missing",
+   "nm": "name90",
+   "pbin": "(0.6, 0.8]",
+   "n": 123,
+   "mean_p": 0.6629999876022339,
+   "true_rate": 0.642,
+   "gap": -0.021
+  },
+  {
+   "hno": "one_missing",
+   "nm": "name=100",
+   "pbin": "(0.2, 0.4]",
+   "n": 6011,
+   "mean_p": 0.28999999165534973,
+   "true_rate": 0.265,
+   "gap": -0.025
+  },
+  {
+   "hno": "one_missing",
+   "nm": "name=100",
+   "pbin": "(0.4, 0.6]",
+   "n": 2950,
+   "mean_p": 0.48399999737739563,
+   "true_rate": 0.459,
+   "gap": -0.025
+  },
+  {
+   "hno": "differ",
+   "nm": "name=100",
+   "pbin": "(0.4, 0.6]",
+   "n": 340,
+   "mean_p": 0.49900001287460327,
+   "true_rate": 0.471,
+   "gap": -0.028
+  },
+  {
+   "hno": "one_missing",
+   "nm": "name90",
+   "pbin": "(0.4, 0.6]",
+   "n": 486,
+   "mean_p": 0.492000013589859,
+   "true_rate": 0.455,
+   "gap": -0.037
+  },
+  {
+   "hno": "both_missing",
+   "nm": "name=100",
+   "pbin": "(0.4, 0.6]",
+   "n": 79,
+   "mean_p": 0.4970000088214874,
+   "true_rate": 0.456,
+   "gap": -0.041
+  },
+  {
+   "hno": "differ",
+   "nm": "name=100",
+   "pbin": "(0.2, 0.4]",
+   "n": 508,
+   "mean_p": 0.2849999964237213,
+   "true_rate": 0.232,
+   "gap": -0.053
+  },
+  {
+   "hno": "same",
+   "nm": "name<90",
+   "pbin": "(0.2, 0.4]",
+   "n": 1092,
+   "mean_p": 0.2930000126361847,
+   "true_rate": 0.224,
+   "gap": -0.069
+  },
+  {
+   "hno": "same",
+   "nm": "name<90",
+   "pbin": "(0.6, 0.8]",
+   "n": 192,
+   "mean_p": 0.6729999780654907,
+   "true_rate": 0.599,
+   "gap": -0.074
+  },
+  {
+   "hno": "same",
+   "nm": "name<90",
+   "pbin": "(0.4, 0.6]",
+   "n": 592,
+   "mean_p": 0.47999998927116394,
+   "true_rate": 0.404,
+   "gap": -0.076
+  }
+ ],
+ "rule": {
+  "fold0": {
+   "rule": [
+    "one_missing",
+    "name=100",
+    0.6
+   ],
+   "train_gain": 3e-06,
+   "test_base": 0.987443,
+   "test_rule": 0.987393,
+   "n_added": 102,
+   "added_true": 65
+  },
+  "fold1": {
+   "rule": [
+    "both_missing",
+    "name90",
+    0.5
+   ],
+   "train_gain": 1.2e-05,
+   "test_base": 0.987149,
+   "test_rule": 0.987145,
+   "n_added": 2,
+   "added_true": 1
+  }
+ }
+}

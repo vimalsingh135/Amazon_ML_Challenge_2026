@@ -1,0 +1,16 @@
+{
+ "id": "dhawal22092004/almc-bi4-2ep",
+ "title": "almc-bi4-2ep",
+ "code_file": "bi_train.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": true,
+ "machine_shape": "NvidiaTeslaT4",
+ "dataset_sources": [
+  "dhawal22092004/almc-bi-hn-data"
+ ],
+ "competition_sources": [],
+ "kernel_sources": []
+}

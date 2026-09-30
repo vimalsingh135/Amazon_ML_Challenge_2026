@@ -1,0 +1,251 @@
+{
+ "structure": {
+  "LB0.965_ours_val0.9762": {
+   "France": {
+    "matches_per_s1": 3.059,
+    "empty": 0.0692
+   },
+   "India": {
+    "matches_per_s1": 3.1823,
+    "empty": 0.066
+   },
+   "US": {
+    "matches_per_s1": 3.3193,
+    "empty": 0.0584
+   }
+  },
+  "LB0.982_v6ce": {
+   "India": {
+    "matches_per_s1": 3.3036,
+    "empty": 0.0597
+   },
+   "US": {
+    "matches_per_s1": 3.3651,
+    "empty": 0.0579
+   },
+   "France": {
+    "matches_per_s1": 3.3566,
+    "empty": 0.055
+   }
+  },
+  "LB0.986_final2": {
+   "France": {
+    "matches_per_s1": 3.3713,
+    "empty": 0.0547
+   },
+   "US": {
+    "matches_per_s1": 3.3798,
+    "empty": 0.0575
+   },
+   "India": {
+    "matches_per_s1": 3.3592,
+    "empty": 0.0578
+   }
+  },
+  "CANDIDATE": {
+   "India": {
+    "matches_per_s1": 3.3592,
+    "empty": 0.0578
+   },
+   "US": {
+    "matches_per_s1": 3.3798,
+    "empty": 0.0575
+   },
+   "France": {
+    "matches_per_s1": 3.3025,
+    "empty": 0.0586
+   }
+  }
+ },
+ "steps": {
+  "LB0.965_ours_val0.9762 -> LB0.982_v6ce": {
+   "added": {
+    "France": {
+     "n": 96511,
+     "nm:name<70": 0.2147,
+     "nm:name70-90": 0.3011,
+     "nm:name>=90": 0.4842,
+     "ad:addr>=80": 0.9182,
+     "ad:addr50-80": 0.0088,
+     "ad:addr_null": 0.0729,
+     "hn:hno_diff": 0.018,
+     "hn:hno_same": 0.7561,
+     "hn:hno_missing": 0.22,
+     "hn:hno_1edit": 0.006
+    },
+    "US": {
+     "n": 41438,
+     "nm:name70-90": 0.1527,
+     "nm:name<70": 0.2228,
+     "nm:name>=90": 0.6245,
+     "ad:addr_null": 0.2629,
+     "ad:addr50-80": 0.0716,
+     "ad:addr<50": 0.0001,
+     "ad:addr>=80": 0.6655,
+     "hn:hno_missing": 0.5743,
+     "hn:hno_diff": 0.1337,
+     "hn:hno_same": 0.1322,
+     "hn:hno_1edit": 0.1597
+    },
+    "India": {
+     "n": 127951,
+     "nm:name>=90": 0.6718,
+     "nm:name<70": 0.1447,
+     "nm:name70-90": 0.1835,
+     "ad:addr50-80": 0.1055,
+     "ad:addr>=80": 0.768,
+     "ad:addr_null": 0.1219,
+     "ad:addr<50": 0.0045,
+     "hn:hno_same": 0.4857,
+     "hn:hno_diff": 0.1488,
+     "hn:hno_1edit": 0.0714,
+     "hn:hno_missing": 0.2941
+    }
+   },
+   "removed": {
+    "France": {
+     "n": 19310,
+     "nm:name<70": 0.2221,
+     "nm:name>=90": 0.4369,
+     "nm:name70-90": 0.341,
+     "ad:addr50-80": 0.0219,
+     "ad:addr_null": 0.0372,
+     "ad:addr<50": 0.0012,
+     "ad:addr>=80": 0.9397,
+     "hn:hno_same": 0.426,
+     "hn:hno_diff": 0.2669,
+     "hn:hno_1edit": 0.2558,
+     "hn:hno_missing": 0.0513
+    },
+    "US": {
+     "n": 11056,
+     "nm:name70-90": 0.1375,
+     "nm:name>=90": 0.6987,
+     "nm:name<70": 0.1638,
+     "ad:addr_null": 0.2657,
+     "ad:addr>=80": 0.706,
+     "ad:addr<50": 0.0012,
+     "ad:addr50-80": 0.027,
+     "hn:hno_1edit": 0.2409,
+     "hn:hno_missing": 0.2736,
+     "hn:hno_diff": 0.3122,
+     "hn:hno_same": 0.1733
+    },
+    "India": {
+     "n": 29676,
+     "nm:name<70": 0.2651,
+     "nm:name70-90": 0.3528,
+     "nm:name>=90": 0.382,
+     "ad:addr>=80": 0.8309,
+     "ad:addr50-80": 0.0658,
+     "ad:addr<50": 0.0044,
+     "ad:addr_null": 0.0989,
+     "hn:hno_same": 0.4654,
+     "hn:hno_diff": 0.1985,
+     "hn:hno_missing": 0.2331,
+     "hn:hno_1edit": 0.1029
+    }
+   }
+  },
+  "LB0.982_v6ce -> LB0.986_final2": {
+   "added": {
+    "France": {
+     "n": 3955,
+     "nm:name70-90": 0.2609,
+     "nm:name>=90": 0.418,
+     "nm:name<70": 0.3211,
+     "ad:addr50-80": 0.0142,
+     "ad:addr>=80": 0.9858,
+     "hn:hno_same": 1.0
+    },
+    "US": {
+     "n": 9821,
+     "nm:name<70": 0.2949,
+     "nm:name>=90": 0.4151,
+     "nm:name70-90": 0.29,
+     "ad:addr_null": 0.0184,
+     "ad:addr50-80": 0.2331,
+     "ad:addr>=80": 0.7474,
+     "ad:addr<50": 0.0011,
+     "hn:hno_1edit": 0.2389,
+     "hn:hno_same": 0.1944,
+     "hn:hno_missing": 0.3824,
+     "hn:hno_diff": 0.1843
+    },
+    "India": {
+     "n": 45228,
+     "nm:name70-90": 0.4144,
+     "nm:name>=90": 0.2859,
+     "nm:name<70": 0.2997,
+     "ad:addr>=80": 0.8392,
+     "ad:addr_null": 0.0038,
+     "ad:addr50-80": 0.1425,
+     "ad:addr<50": 0.0145,
+     "hn:hno_1edit": 0.0833,
+     "hn:hno_same": 0.5178,
+     "hn:hno_missing": 0.2224,
+     "hn:hno_diff": 0.1765
+    }
+   },
+   "removed": {
+    "US": {
+     "n": 57,
+     "nm:name<70": 0.2105,
+     "nm:name>=90": 0.6316,
+     "nm:name70-90": 0.1579,
+     "ad:addr_null": 0.3684,
+     "ad:addr50-80": 0.0526,
+     "ad:addr>=80": 0.5789,
+     "hn:hno_diff": 0.2105,
+     "hn:hno_same": 0.0702,
+     "hn:hno_1edit": 0.2456,
+     "hn:hno_missing": 0.4737
+    },
+    "France": {
+     "n": 139,
+     "nm:name70-90": 0.0935,
+     "nm:name<70": 0.2734,
+     "nm:name>=90": 0.6331,
+     "ad:addr>=80": 0.7122,
+     "ad:addr_null": 0.0072,
+     "ad:addr50-80": 0.2806,
+     "hn:hno_1edit": 0.0144,
+     "hn:hno_diff": 0.0072,
+     "hn:hno_missing": 0.0072,
+     "hn:hno_same": 0.9712
+    },
+    "India": {
+     "n": 171,
+     "nm:name<70": 0.2573,
+     "nm:name>=90": 0.4444,
+     "nm:name70-90": 0.2982,
+     "ad:addr_null": 0.2515,
+     "ad:addr50-80": 0.1287,
+     "ad:addr<50": 0.0058,
+     "ad:addr>=80": 0.614,
+     "hn:hno_diff": 0.1287,
+     "hn:hno_missing": 0.3099,
+     "hn:hno_same": 0.4444,
+     "hn:hno_1edit": 0.117
+    }
+   }
+  },
+  "LB0.986_final2 -> CANDIDATE": {
+   "added": {},
+   "removed": {
+    "France": {
+     "n": 17854,
+     "nm:name>=90": 0.0187,
+     "nm:name<70": 0.1341,
+     "nm:name70-90": 0.8471,
+     "ad:addr50-80": 0.0008,
+     "ad:addr>=80": 0.9992,
+     "hn:hno_same": 0.9957,
+     "hn:hno_diff": 0.0016,
+     "hn:hno_1edit": 0.0006,
+     "hn:hno_missing": 0.0022
+    }
+   }
+  }
+ }
+}

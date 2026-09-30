@@ -1,0 +1,16 @@
+{
+ "val_new_pairs": 2191141,
+ "val_new_true": 8411,
+ "tau_keep95": 0.58544921875,
+ "val_kept": 884002,
+ "by_part_new": {
+  "val": 2191141,
+  "test": 20707781,
+  "fit1": 5112939
+ },
+ "by_part_kept": {
+  "test": 7972881,
+  "val": 884002,
+  "fit1": 2064334
+ }
+}

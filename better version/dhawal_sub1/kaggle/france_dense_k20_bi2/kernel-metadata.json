@@ -1,0 +1,19 @@
+{
+ "id": "codelearner00/almc-fr-dense-bi2",
+ "title": "almc-fr-dense-bi2",
+ "code_file": "fr_dense.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": false,
+ "machine_shape": "NvidiaTeslaT4",
+ "dataset_sources": [
+  "codelearner00/almc-fr-data",
+  "codelearner00/almc-ce-model"
+ ],
+ "competition_sources": [],
+ "kernel_sources": [
+  "codelearner00/almc-bi2-train"
+ ]
+}

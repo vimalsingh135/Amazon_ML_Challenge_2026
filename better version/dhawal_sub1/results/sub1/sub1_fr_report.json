@@ -1,0 +1,21 @@
+{
+ "added_vs_0988": 174,
+ "removed_vs_0988": 31,
+ "added_france": 174,
+ "pifit_share_false_added_france": 0.8382208754323028,
+ "structure": {
+  "India": {
+   "matches_per_s1": 3.3592,
+   "empty": 0.0578
+  },
+  "US": {
+   "matches_per_s1": 3.3798,
+   "empty": 0.0575
+  },
+  "France": {
+   "matches_per_s1": 3.303,
+   "empty": 0.0585
+  }
+ },
+ "validator": "PASS"
+}

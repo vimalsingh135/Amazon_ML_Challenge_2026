@@ -1,0 +1,3 @@
+{"id": "dhawal2209/almc-sub1", "title": "almc-sub1", "code_file": "sub1_kernel.py", "language": "python",
+ "kernel_type": "script", "is_private": true, "enable_gpu": false, "enable_internet": false,
+ "dataset_sources": ["dhawal2209/almc-sub1-data", "satwiksps/amazon-ml-challenge-2026"], "competition_sources": [], "kernel_sources": []}

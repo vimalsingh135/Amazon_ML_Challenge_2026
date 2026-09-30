@@ -1,0 +1,326 @@
+[
+ {
+  "country": "France",
+  "bucket": "n90|a50",
+  "n": 13265,
+  "p_med": 0.0,
+  "p>=.8": 0.026,
+  "hno_eq": 0.448,
+  "per_s1": 0.3316
+ },
+ {
+  "country": "India",
+  "bucket": "n70|a<50",
+  "n": 279,
+  "p_med": 0.0,
+  "p>=.8": 0.043,
+  "hno_eq": 0.409,
+  "per_s1": 0.007
+ },
+ {
+  "country": "India",
+  "bucket": "n<70|a<50",
+  "n": 122,
+  "p_med": 0.0,
+  "p>=.8": 0.025,
+  "hno_eq": 0.525,
+  "per_s1": 0.0031
+ },
+ {
+  "country": "US",
+  "bucket": "n70|a<50",
+  "n": 184,
+  "p_med": 0.0,
+  "p>=.8": 0.0,
+  "hno_eq": 0.033,
+  "per_s1": 0.0046
+ },
+ {
+  "country": "US",
+  "bucket": "n70|a-null",
+  "n": 6935,
+  "p_med": 0.0,
+  "p>=.8": 0.03,
+  "hno_eq": 0.0,
+  "per_s1": 0.1734
+ },
+ {
+  "country": "France",
+  "bucket": "n90|a-null",
+  "n": 39075,
+  "p_med": 0.0,
+  "p>=.8": 0.075,
+  "hno_eq": 0.003,
+  "per_s1": 0.9769
+ },
+ {
+  "country": "US",
+  "bucket": "n70|a50",
+  "n": 1465,
+  "p_med": 0.0,
+  "p>=.8": 0.123,
+  "hno_eq": 0.107,
+  "per_s1": 0.0366
+ },
+ {
+  "country": "US",
+  "bucket": "n70|a80",
+  "n": 37015,
+  "p_med": 0.0010000000474974513,
+  "p>=.8": 0.404,
+  "hno_eq": 0.365,
+  "per_s1": 0.9254
+ },
+ {
+  "country": "France",
+  "bucket": "n<70|a50",
+  "n": 1313,
+  "p_med": 0.0,
+  "p>=.8": 0.004,
+  "hno_eq": 0.752,
+  "per_s1": 0.0328
+ },
+ {
+  "country": "France",
+  "bucket": "n<70|a-null",
+  "n": 1800,
+  "p_med": 0.0,
+  "p>=.8": 0.001,
+  "hno_eq": 0.002,
+  "per_s1": 0.045
+ },
+ {
+  "country": "India",
+  "bucket": "n<70|a80",
+  "n": 27372,
+  "p_med": 0.0,
+  "p>=.8": 0.319,
+  "hno_eq": 0.527,
+  "per_s1": 0.6843
+ },
+ {
+  "country": "France",
+  "bucket": "n<70|a<50",
+  "n": 20,
+  "p_med": 0.0,
+  "p>=.8": 0.0,
+  "hno_eq": 0.25,
+  "per_s1": 0.0005
+ },
+ {
+  "country": "France",
+  "bucket": "n90|a80",
+  "n": 153271,
+  "p_med": 1.0,
+  "p>=.8": 0.705,
+  "hno_eq": 0.666,
+  "per_s1": 3.8318
+ },
+ {
+  "country": "France",
+  "bucket": "n70|a<50",
+  "n": 32,
+  "p_med": 0.0,
+  "p>=.8": 0.0,
+  "hno_eq": 0.344,
+  "per_s1": 0.0008
+ },
+ {
+  "country": "France",
+  "bucket": "n70|a50",
+  "n": 3817,
+  "p_med": 0.0,
+  "p>=.8": 0.002,
+  "hno_eq": 0.495,
+  "per_s1": 0.0954
+ },
+ {
+  "country": "US",
+  "bucket": "n90|a-null",
+  "n": 24642,
+  "p_med": 0.026000000536441803,
+  "p>=.8": 0.143,
+  "hno_eq": 0.0,
+  "per_s1": 0.616
+ },
+ {
+  "country": "France",
+  "bucket": "n70|a-null",
+  "n": 10638,
+  "p_med": 0.0,
+  "p>=.8": 0.005,
+  "hno_eq": 0.003,
+  "per_s1": 0.266
+ },
+ {
+  "country": "US",
+  "bucket": "n<70|a<50",
+  "n": 55,
+  "p_med": 0.0,
+  "p>=.8": 0.0,
+  "hno_eq": 0.145,
+  "per_s1": 0.0014
+ },
+ {
+  "country": "India",
+  "bucket": "n<70|a-null",
+  "n": 2285,
+  "p_med": 0.0,
+  "p>=.8": 0.0,
+  "hno_eq": 0.109,
+  "per_s1": 0.0571
+ },
+ {
+  "country": "India",
+  "bucket": "n70|a50",
+  "n": 4742,
+  "p_med": 0.0,
+  "p>=.8": 0.135,
+  "hno_eq": 0.289,
+  "per_s1": 0.1186
+ },
+ {
+  "country": "France",
+  "bucket": "n70|a80",
+  "n": 40567,
+  "p_med": 0.0,
+  "p>=.8": 0.302,
+  "hno_eq": 0.44,
+  "per_s1": 1.0142
+ },
+ {
+  "country": "India",
+  "bucket": "n90|a<50",
+  "n": 477,
+  "p_med": 0.0,
+  "p>=.8": 0.143,
+  "hno_eq": 0.505,
+  "per_s1": 0.0119
+ },
+ {
+  "country": "India",
+  "bucket": "n70|a80",
+  "n": 63068,
+  "p_med": 0.0,
+  "p>=.8": 0.343,
+  "hno_eq": 0.402,
+  "per_s1": 1.5767
+ },
+ {
+  "country": "India",
+  "bucket": "n90|a50",
+  "n": 7173,
+  "p_med": 0.0010000000474974513,
+  "p>=.8": 0.36,
+  "hno_eq": 0.342,
+  "per_s1": 0.1793
+ },
+ {
+  "country": "France",
+  "bucket": "n<70|a80",
+  "n": 65147,
+  "p_med": 0.0,
+  "p>=.8": 0.177,
+  "hno_eq": 0.558,
+  "per_s1": 1.6287
+ },
+ {
+  "country": "India",
+  "bucket": "n90|a-null",
+  "n": 26911,
+  "p_med": 0.024000000208616257,
+  "p>=.8": 0.093,
+  "hno_eq": 0.09,
+  "per_s1": 0.6728
+ },
+ {
+  "country": "US",
+  "bucket": "n<70|a-null",
+  "n": 1565,
+  "p_med": 0.0,
+  "p>=.8": 0.001,
+  "hno_eq": 0.0,
+  "per_s1": 0.0391
+ },
+ {
+  "country": "US",
+  "bucket": "n90|a80",
+  "n": 149613,
+  "p_med": 1.0,
+  "p>=.8": 0.702,
+  "hno_eq": 0.576,
+  "per_s1": 3.7403
+ },
+ {
+  "country": "US",
+  "bucket": "n90|a50",
+  "n": 4016,
+  "p_med": 0.0010000000474974513,
+  "p>=.8": 0.333,
+  "hno_eq": 0.203,
+  "per_s1": 0.1004
+ },
+ {
+  "country": "India",
+  "bucket": "n90|a80",
+  "n": 130466,
+  "p_med": 1.0,
+  "p>=.8": 0.736,
+  "hno_eq": 0.617,
+  "per_s1": 3.2616
+ },
+ {
+  "country": "US",
+  "bucket": "n<70|a50",
+  "n": 893,
+  "p_med": 0.0,
+  "p>=.8": 0.087,
+  "hno_eq": 0.357,
+  "per_s1": 0.0223
+ },
+ {
+  "country": "France",
+  "bucket": "n90|a<50",
+  "n": 67,
+  "p_med": 0.0,
+  "p>=.8": 0.0,
+  "hno_eq": 0.373,
+  "per_s1": 0.0017
+ },
+ {
+  "country": "US",
+  "bucket": "n90|a<50",
+  "n": 311,
+  "p_med": 0.0,
+  "p>=.8": 0.0,
+  "hno_eq": 0.035,
+  "per_s1": 0.0078
+ },
+ {
+  "country": "India",
+  "bucket": "n<70|a50",
+  "n": 2259,
+  "p_med": 0.0,
+  "p>=.8": 0.055,
+  "hno_eq": 0.413,
+  "per_s1": 0.0565
+ },
+ {
+  "country": "India",
+  "bucket": "n70|a-null",
+  "n": 12107,
+  "p_med": 0.0,
+  "p>=.8": 0.018,
+  "hno_eq": 0.085,
+  "per_s1": 0.3027
+ },
+ {
+  "country": "US",
+  "bucket": "n<70|a80",
+  "n": 18282,
+  "p_med": 0.5580000281333923,
+  "p>=.8": 0.497,
+  "hno_eq": 0.539,
+  "per_s1": 0.457
+ }
+]

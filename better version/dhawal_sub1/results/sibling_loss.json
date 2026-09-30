@@ -1,0 +1,362 @@
+{
+ "f": [
+  {
+   "country": "India",
+   "sib": false,
+   "n_s1": 59644,
+   "f05": 0.98522,
+   "loss_share": 0.4626
+  },
+  {
+   "country": "India",
+   "sib": true,
+   "n_s1": 267,
+   "f05": 0.98215,
+   "loss_share": 0.0025
+  },
+  {
+   "country": "US",
+   "sib": false,
+   "n_s1": 89740,
+   "f05": 0.9887,
+   "loss_share": 0.532
+  },
+  {
+   "country": "US",
+   "sib": true,
+   "n_s1": 349,
+   "f05": 0.98448,
+   "loss_share": 0.0028
+  }
+ ],
+ "errors": [
+  {
+   "country": "India",
+   "sib": false,
+   "err": "decision_fn",
+   "hno": "both_missing",
+   "n": 241,
+   "per_1k_s1": 4.04
+  },
+  {
+   "country": "India",
+   "sib": false,
+   "err": "decision_fn",
+   "hno": "diff",
+   "n": 150,
+   "per_1k_s1": 2.51
+  },
+  {
+   "country": "India",
+   "sib": false,
+   "err": "decision_fn",
+   "hno": "edit1",
+   "n": 95,
+   "per_1k_s1": 1.59
+  },
+  {
+   "country": "India",
+   "sib": false,
+   "err": "decision_fn",
+   "hno": "one_missing",
+   "n": 2238,
+   "per_1k_s1": 37.52
+  },
+  {
+   "country": "India",
+   "sib": false,
+   "err": "decision_fn",
+   "hno": "same",
+   "n": 349,
+   "per_1k_s1": 5.85
+  },
+  {
+   "country": "India",
+   "sib": false,
+   "err": "fp",
+   "hno": "both_missing",
+   "n": 10,
+   "per_1k_s1": 0.17
+  },
+  {
+   "country": "India",
+   "sib": false,
+   "err": "fp",
+   "hno": "diff",
+   "n": 48,
+   "per_1k_s1": 0.8
+  },
+  {
+   "country": "India",
+   "sib": false,
+   "err": "fp",
+   "hno": "edit1",
+   "n": 20,
+   "per_1k_s1": 0.34
+  },
+  {
+   "country": "India",
+   "sib": false,
+   "err": "fp",
+   "hno": "one_missing",
+   "n": 81,
+   "per_1k_s1": 1.36
+  },
+  {
+   "country": "India",
+   "sib": false,
+   "err": "fp",
+   "hno": "same",
+   "n": 88,
+   "per_1k_s1": 1.48
+  },
+  {
+   "country": "India",
+   "sib": false,
+   "err": "retrieval_miss",
+   "hno": "both_missing",
+   "n": 652,
+   "per_1k_s1": 10.93
+  },
+  {
+   "country": "India",
+   "sib": false,
+   "err": "retrieval_miss",
+   "hno": "diff",
+   "n": 719,
+   "per_1k_s1": 12.05
+  },
+  {
+   "country": "India",
+   "sib": false,
+   "err": "retrieval_miss",
+   "hno": "edit1",
+   "n": 390,
+   "per_1k_s1": 6.54
+  },
+  {
+   "country": "India",
+   "sib": false,
+   "err": "retrieval_miss",
+   "hno": "one_missing",
+   "n": 1708,
+   "per_1k_s1": 28.64
+  },
+  {
+   "country": "India",
+   "sib": false,
+   "err": "retrieval_miss",
+   "hno": "same",
+   "n": 2213,
+   "per_1k_s1": 37.1
+  },
+  {
+   "country": "India",
+   "sib": true,
+   "err": "decision_fn",
+   "hno": "one_missing",
+   "n": 18,
+   "per_1k_s1": 67.42
+  },
+  {
+   "country": "India",
+   "sib": true,
+   "err": "decision_fn",
+   "hno": "same",
+   "n": 4,
+   "per_1k_s1": 14.98
+  },
+  {
+   "country": "India",
+   "sib": true,
+   "err": "fp",
+   "hno": "same",
+   "n": 1,
+   "per_1k_s1": 3.75
+  },
+  {
+   "country": "India",
+   "sib": true,
+   "err": "retrieval_miss",
+   "hno": "diff",
+   "n": 4,
+   "per_1k_s1": 14.98
+  },
+  {
+   "country": "India",
+   "sib": true,
+   "err": "retrieval_miss",
+   "hno": "one_missing",
+   "n": 8,
+   "per_1k_s1": 29.96
+  },
+  {
+   "country": "India",
+   "sib": true,
+   "err": "retrieval_miss",
+   "hno": "same",
+   "n": 16,
+   "per_1k_s1": 59.93
+  },
+  {
+   "country": "US",
+   "sib": false,
+   "err": "decision_fn",
+   "hno": "diff",
+   "n": 462,
+   "per_1k_s1": 5.15
+  },
+  {
+   "country": "US",
+   "sib": false,
+   "err": "decision_fn",
+   "hno": "edit1",
+   "n": 317,
+   "per_1k_s1": 3.53
+  },
+  {
+   "country": "US",
+   "sib": false,
+   "err": "decision_fn",
+   "hno": "one_missing",
+   "n": 5075,
+   "per_1k_s1": 56.55
+  },
+  {
+   "country": "US",
+   "sib": false,
+   "err": "decision_fn",
+   "hno": "same",
+   "n": 408,
+   "per_1k_s1": 4.55
+  },
+  {
+   "country": "US",
+   "sib": false,
+   "err": "fp",
+   "hno": "diff",
+   "n": 57,
+   "per_1k_s1": 0.64
+  },
+  {
+   "country": "US",
+   "sib": false,
+   "err": "fp",
+   "hno": "edit1",
+   "n": 74,
+   "per_1k_s1": 0.82
+  },
+  {
+   "country": "US",
+   "sib": false,
+   "err": "fp",
+   "hno": "one_missing",
+   "n": 124,
+   "per_1k_s1": 1.38
+  },
+  {
+   "country": "US",
+   "sib": false,
+   "err": "fp",
+   "hno": "same",
+   "n": 93,
+   "per_1k_s1": 1.04
+  },
+  {
+   "country": "US",
+   "sib": false,
+   "err": "retrieval_miss",
+   "hno": "diff",
+   "n": 326,
+   "per_1k_s1": 3.63
+  },
+  {
+   "country": "US",
+   "sib": false,
+   "err": "retrieval_miss",
+   "hno": "edit1",
+   "n": 426,
+   "per_1k_s1": 4.75
+  },
+  {
+   "country": "US",
+   "sib": false,
+   "err": "retrieval_miss",
+   "hno": "one_missing",
+   "n": 2871,
+   "per_1k_s1": 31.99
+  },
+  {
+   "country": "US",
+   "sib": false,
+   "err": "retrieval_miss",
+   "hno": "same",
+   "n": 332,
+   "per_1k_s1": 3.7
+  },
+  {
+   "country": "US",
+   "sib": true,
+   "err": "decision_fn",
+   "hno": "edit1",
+   "n": 2,
+   "per_1k_s1": 5.73
+  },
+  {
+   "country": "US",
+   "sib": true,
+   "err": "decision_fn",
+   "hno": "one_missing",
+   "n": 12,
+   "per_1k_s1": 34.38
+  },
+  {
+   "country": "US",
+   "sib": true,
+   "err": "decision_fn",
+   "hno": "same",
+   "n": 2,
+   "per_1k_s1": 5.73
+  },
+  {
+   "country": "US",
+   "sib": true,
+   "err": "fp",
+   "hno": "diff",
+   "n": 3,
+   "per_1k_s1": 8.6
+  },
+  {
+   "country": "US",
+   "sib": true,
+   "err": "fp",
+   "hno": "one_missing",
+   "n": 3,
+   "per_1k_s1": 8.6
+  },
+  {
+   "country": "US",
+   "sib": true,
+   "err": "retrieval_miss",
+   "hno": "diff",
+   "n": 2,
+   "per_1k_s1": 5.73
+  },
+  {
+   "country": "US",
+   "sib": true,
+   "err": "retrieval_miss",
+   "hno": "edit1",
+   "n": 3,
+   "per_1k_s1": 8.6
+  },
+  {
+   "country": "US",
+   "sib": true,
+   "err": "retrieval_miss",
+   "hno": "one_missing",
+   "n": 26,
+   "per_1k_s1": 74.5
+  }
+ ]
+}

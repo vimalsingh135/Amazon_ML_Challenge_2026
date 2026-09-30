@@ -1,0 +1,172 @@
+==========================================================================================
+RESULTS  (validation macro F0.5 on the same 150k val S1; France has no labels -> LB only)
+his committed v6ce (README): 0.98730
+
+HIS v6ce (committed)               F0.5=0.9872956033294528  P=0.998602699137699  R=0.9635153572591758  | by country {'US': 0.9886860620609792, 'India': 0.9852047512878495}
+HIS CE re-stacked here (canary)    F0.5=0.9872956033294528  P=0.998602699137699  R=0.9635153572591756  | by country {'India': 0.9852047512878493, 'US': 0.9886860620609794}
+OUR CE ensemble                    F0.5=0.9868926561910283  P=0.9980499397546566  R=0.9634933892779288  | by country {'India': 0.9846772375945011, 'US': 0.9883659541911893}
+
+--- gate_OURS_vs_his_committed.json ---
+{
+ "n_common_s1": 150000,
+ "ALL": {
+  "f05_a": 0.9873,
+  "f05_b": 0.98689,
+  "delta": -0.0004,
+  "ci95": [
+   -0.00053,
+   -0.00028
+  ],
+  "p_b_better": 0.0,
+  "precision_a": 0.9986,
+  "precision_b": 0.99805,
+  "recall_a": 0.96352,
+  "recall_b": 0.96349,
+  "singleton_f_a": 0.99385,
+  "singleton_f_b": 0.98994
+ },
+ "India": {
+  "f05_a": 0.9852,
+  "f05_b": 0.98468,
+  "delta": -0.00053,
+  "ci95": [
+   -0.00073,
+   -0.00032
+  ],
+  "p_b_better": 0.0,
+  "precision_a": 0.99859,
+  "precision_b": 0.99797,
+  "recall_a": 0.95779,
+  "recall_b": 0.95761,
+  "singleton_f_a": 0.99467,
+  "singleton_f_b": 0.99083
+ },
+ "US": {
+  "f05_a": 0.98869,
+  "f05_b": 0.98837,
+  "delta": -0.00032,
+  "ci95": [
+   -0.00048,
+   -0.00018
+  ],
+  "p_b_better": 0.0,
+  "precision_a": 0.99861,
+  "precision_b": 0.99811,
+  "recall_a": 0.96732,
+  "recall_b": 0.9674,
+  "singleton_f_a": 0.9933,
+  "singleton_f_b": 0.98935
+ },
+ "ACCEPT": false
+}
+
+--- gate_OURS_vs_his_same_env.json ---
+{
+ "n_common_s1": 150000,
+ "ALL": {
+  "f05_a": 0.9873,
+  "f05_b": 0.98689,
+  "delta": -0.0004,
+  "ci95": [
+   -0.00053,
+   -0.00028
+  ],
+  "p_b_better": 0.0,
+  "precision_a": 0.9986,
+  "precision_b": 0.99805,
+  "recall_a": 0.96352,
+  "recall_b": 0.96349,
+  "singleton_f_a": 0.99385,
+  "singleton_f_b": 0.98994
+ },
+ "India": {
+  "f05_a": 0.9852,
+  "f05_b": 0.98468,
+  "delta": -0.00053,
+  "ci95": [
+   -0.00073,
+   -0.00032
+  ],
+  "p_b_better": 0.0,
+  "precision_a": 0.99859,
+  "precision_b": 0.99797,
+  "recall_a": 0.95779,
+  "recall_b": 0.95761,
+  "singleton_f_a": 0.99467,
+  "singleton_f_b": 0.99083
+ },
+ "US": {
+  "f05_a": 0.98869,
+  "f05_b": 0.98837,
+  "delta": -0.00032,
+  "ci95": [
+   -0.00048,
+   -0.00018
+  ],
+  "p_b_better": 0.0,
+  "precision_a": 0.99861,
+  "precision_b": 0.99811,
+  "recall_a": 0.96732,
+  "recall_b": 0.9674,
+  "singleton_f_a": 0.9933,
+  "singleton_f_b": 0.98935
+ },
+ "ACCEPT": false
+}
+
+--- gate_canary_committed_vs_repro.json ---
+{
+ "n_common_s1": 150000,
+ "ALL": {
+  "f05_a": 0.9873,
+  "f05_b": 0.9873,
+  "delta": 0.0,
+  "ci95": [
+   0.0,
+   0.0
+  ],
+  "p_b_better": 0.0,
+  "precision_a": 0.9986,
+  "precision_b": 0.9986,
+  "recall_a": 0.96352,
+  "recall_b": 0.96352,
+  "singleton_f_a": 0.99385,
+  "singleton_f_b": 0.99385
+ },
+ "US": {
+  "f05_a": 0.98869,
+  "f05_b": 0.98869,
+  "delta": 0.0,
+  "ci95": [
+   0.0,
+   0.0
+  ],
+  "p_b_better": 0.0,
+  "precision_a": 0.99861,
+  "precision_b": 0.99861,
+  "recall_a": 0.96732,
+  "recall_b": 0.96732,
+  "singleton_f_a": 0.9933,
+  "singleton_f_b": 0.9933
+ },
+ "India": {
+  "f05_a": 0.9852,
+  "f05_b": 0.9852,
+  "delta": 0.0,
+  "ci95": [
+   0.0,
+   0.0
+  ],
+  "p_b_better": 0.0,
+  "precision_a": 0.99859,
+  "precision_b": 0.99859,
+  "recall_a": 0.95779,
+  "recall_b": 0.95779,
+  "singleton_f_a": 0.99467,
+  "singleton_f_b": 0.99467
+ },
+ "ACCEPT": false
+}
+
+submission: v6ce_submission.zip  (candidate_pairs.tsv, matching_results.tsv)
+total time: 4.77 h

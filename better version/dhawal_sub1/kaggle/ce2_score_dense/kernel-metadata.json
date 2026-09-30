@@ -1,0 +1,4 @@
+{"id": "dhwalkhatri12873/almc-ce2-score", "title": "almc-ce2-score", "code_file": "ce2_score.py", "language": "python",
+ "kernel_type": "script", "is_private": true, "enable_gpu": true, "enable_internet": false, "machine_shape": "NvidiaTeslaT4",
+ "dataset_sources": ["dhwalkhatri12873/almc-dense-data", "dhwalkhatri12873/almc-dense-pairs"], "competition_sources": [],
+ "kernel_sources": ["dhwalkhatri12873/almc-ce2-train"]}

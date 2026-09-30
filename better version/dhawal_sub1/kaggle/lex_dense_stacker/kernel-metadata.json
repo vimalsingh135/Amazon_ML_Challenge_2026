@@ -1,0 +1,19 @@
+{
+ "id": "dhawal2209/almc-lex",
+ "title": "almc-lex",
+ "code_file": "lex_kernel.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": false,
+ "enable_internet": true,
+ "dataset_sources": [
+  "dhawal2209/almc-eval-data",
+  "dhawal2209/almc-dense-data",
+  "satwiksps/amazon-ml-challenge-2026"
+ ],
+ "competition_sources": [],
+ "kernel_sources": [
+  "dhawal2209/almc-dense"
+ ]
+}

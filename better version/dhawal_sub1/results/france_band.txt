@@ -1,0 +1,74 @@
+shape: (6, 4)
+┌──────────┬────────┬────────┬────────┐
+│ bucket   ┆ France ┆ US     ┆ India  │
+│ ---      ┆ ---    ┆ ---    ┆ ---    │
+│ str      ┆ f64    ┆ f64    ┆ f64    │
+╞══════════╪════════╪════════╪════════╡
+│ n90|a50  ┆ 0.3316 ┆ 0.1004 ┆ 0.1793 │
+│ n70|a50  ┆ 0.0954 ┆ 0.0366 ┆ 0.1186 │
+│ n70|a80  ┆ 1.0142 ┆ 0.9254 ┆ 1.5767 │
+│ n<70|a80 ┆ 1.6287 ┆ 0.457  ┆ 0.6843 │
+│ n90|a80  ┆ 3.8318 ┆ 3.7403 ┆ 3.2616 │
+│ n90|a<50 ┆ 0.0017 ┆ 0.0078 ┆ 0.0119 │
+└──────────┴────────┴────────┴────────┘
+shape: (6, 4)
+┌──────────┬────────┬───────┬───────┐
+│ bucket   ┆ France ┆ US    ┆ India │
+│ ---      ┆ ---    ┆ ---   ┆ ---   │
+│ str      ┆ f32    ┆ f32   ┆ f32   │
+╞══════════╪════════╪═══════╪═══════╡
+│ n90|a50  ┆ 0.0    ┆ 0.001 ┆ 0.001 │
+│ n70|a50  ┆ 0.0    ┆ 0.0   ┆ 0.0   │
+│ n70|a80  ┆ 0.0    ┆ 0.001 ┆ 0.0   │
+│ n<70|a80 ┆ 0.0    ┆ 0.558 ┆ 0.0   │
+│ n90|a80  ┆ 1.0    ┆ 1.0   ┆ 1.0   │
+│ n90|a<50 ┆ 0.0    ┆ 0.0   ┆ 0.0   │
+└──────────┴────────┴───────┴───────┘
+shape: (6, 4)
+┌──────────┬────────┬───────┬───────┐
+│ bucket   ┆ France ┆ US    ┆ India │
+│ ---      ┆ ---    ┆ ---   ┆ ---   │
+│ str      ┆ f64    ┆ f64   ┆ f64   │
+╞══════════╪════════╪═══════╪═══════╡
+│ n90|a50  ┆ 0.026  ┆ 0.333 ┆ 0.36  │
+│ n70|a50  ┆ 0.002  ┆ 0.123 ┆ 0.135 │
+│ n70|a80  ┆ 0.302  ┆ 0.404 ┆ 0.343 │
+│ n<70|a80 ┆ 0.177  ┆ 0.497 ┆ 0.319 │
+│ n90|a80  ┆ 0.705  ┆ 0.702 ┆ 0.736 │
+│ n90|a<50 ┆ 0.0    ┆ 0.0   ┆ 0.143 │
+└──────────┴────────┴───────┴───────┘
+shape: (6, 4)
+┌──────────┬────────┬───────┬───────┐
+│ bucket   ┆ France ┆ US    ┆ India │
+│ ---      ┆ ---    ┆ ---   ┆ ---   │
+│ str      ┆ f64    ┆ f64   ┆ f64   │
+╞══════════╪════════╪═══════╪═══════╡
+│ n90|a50  ┆ 0.448  ┆ 0.203 ┆ 0.342 │
+│ n70|a50  ┆ 0.495  ┆ 0.107 ┆ 0.289 │
+│ n70|a80  ┆ 0.44   ┆ 0.365 ┆ 0.402 │
+│ n<70|a80 ┆ 0.558  ┆ 0.539 ┆ 0.527 │
+│ n90|a80  ┆ 0.666  ┆ 0.576 ┆ 0.617 │
+│ n90|a<50 ┆ 0.373  ┆ 0.035 ┆ 0.505 │
+└──────────┴────────┴───────┴───────┘
+shape: (15, 5)
+┌──────────┬───────────┬────────┬──────────────────────────────────────────────────────────┬─────────────────────────────────────────────────────────┐
+│ p        ┆ sa        ┆ hno_eq ┆ business_address                                         ┆ raw_t                                                   │
+│ ---      ┆ ---       ┆ ---    ┆ ---                                                      ┆ ---                                                     │
+│ f32      ┆ f32       ┆ bool   ┆ str                                                      ┆ str                                                     │
+╞══════════╪═══════════╪════════╪══════════════════════════════════════════════════════════╪═════════════════════════════════════════════════════════╡
+│ 0.000025 ┆ 71.794868 ┆ true   ┆ 11 Rue Egault, Saint-Herblain, Pays de la Loire          ┆ Saint-herblain, 11 Impasse Docteur Pierre Lépine        │
+│ 0.0      ┆ 66.666664 ┆ false  ┆ 48 Rue Roger Allo, Bordeaux, Nouvelle-Aquitaine          ┆ 114 Rue Gambetta, Bordeaux                              │
+│ 0.0      ┆ 67.92453  ┆ true   ┆ 3 Rue César Franck, Nantes, Pays de la Loire             ┆ 3 TER R GÉNÉRAL DE TORQUAT, NANTES                      │
+│ 0.000025 ┆ 71.428574 ┆ false  ┆ 93 Rue des Renards, Nantes, Pays de la Loire             ┆ 8 Rue Des Artiscns, Nantes, Loire-Atlantique            │
+│ 0.0      ┆ 72.727272 ┆ false  ┆ 352 Rue Henri Dunant, Hauts-de-France, Dunkerque         ┆ 26 R. MARUQANT, DUNKERQUE                               │
+│ 0.000025 ┆ 77.551018 ┆ true   ┆ 3 Allée Germaine de Staël, Nantes, Pays de la Loire      ┆ Nº 3 R D'allemagne, Nantes                              │
+│ 0.0      ┆ 74.285713 ┆ false  ┆ 198 Rue de Gand, Tourcoing, Hauts-de-France              ┆ 125 Rue De La Tosése, Tourcoing, Nord                   │
+│ 0.998741 ┆ 76.470589 ┆ true   ┆ 61 Rue Louguet, Calais, Hauts-de-France                  ┆ 61 R. Lamartine, Calais, Pas-de-Calais                  │
+│ 0.000803 ┆ 71.428574 ┆ false  ┆ 7 Allee Chanteclerc, Lège-Cap-Ferret, Nouvelle-Aquitaine ┆ 3 IMP. DE LA CNCHE, LÈGE-CAP-FERRET, Nouvelle-Aquitaine │
+│ 0.654533 ┆ 78.947365 ┆ true   ┆ Tourcoing, Hauts-de-France, 3 RUE Abel Martin            ┆ RUE DES 3 PIERRES, Nord, TOURCOING                      │
+│ 0.000025 ┆ 61.53846  ┆ false  ┆ Nouvelle-Aquitaine, 39 Rue Camille Sauvageau, Bordeaux   ┆ 61 Rue Victor Huco, Bordeaux, Nouvelle-Aquitaine        │
+│ 0.00498  ┆ 77.777779 ┆ true   ┆ 52 Rue de la Lainière, Roubaix, Hauts-de-France          ┆ 52 R. SAINT LUIS, ROUBAIX, Nord                         │
+│ 0.000027 ┆ 66.666664 ┆ false  ┆ 26 Rue Romain Rolland, Nantes, Pays de la Loire          ┆ 4 RUE DES GLEANNS, Nantes                               │
+│ 0.000876 ┆ 72.727272 ┆ true   ┆ 9 Rue Massenet, Nantes, Pays de la Loire                 ┆ 9 R FRUCTIDOR, NANTES, Pays de la Loire                 │
+│ 0.273564 ┆ 74.285713 ┆ true   ┆ 33 Rue Alfred de Musset, Calais, Hauts-de-France         ┆ CALAIS, Hauts-de-France, 33 R AUGEREAU                  │
+└──────────┴───────────┴────────┴──────────────────────────────────────────────────────────┴─────────────────────────────────────────────────────────┘

@@ -1,0 +1,16 @@
+{
+ "id": "dhawal2209000/almc-bi3-base",
+ "title": "almc-bi3-base",
+ "code_file": "bi_train.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": true,
+ "machine_shape": "NvidiaTeslaT4",
+ "dataset_sources": [
+  "dhawal2209000/almc-bi-hn-data"
+ ],
+ "competition_sources": [],
+ "kernel_sources": []
+}

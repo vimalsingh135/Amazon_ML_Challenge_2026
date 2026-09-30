@@ -1,0 +1,52 @@
+{
+ "n_common_s1": 150000,
+ "ALL": {
+  "f05_a": 0.9873,
+  "f05_b": 0.9873,
+  "delta": 0.0,
+  "ci95": [
+   0.0,
+   0.0
+  ],
+  "p_b_better": 0.0,
+  "precision_a": 0.9986,
+  "precision_b": 0.9986,
+  "recall_a": 0.96352,
+  "recall_b": 0.96352,
+  "singleton_f_a": 0.99385,
+  "singleton_f_b": 0.99385
+ },
+ "US": {
+  "f05_a": 0.98869,
+  "f05_b": 0.98869,
+  "delta": 0.0,
+  "ci95": [
+   0.0,
+   0.0
+  ],
+  "p_b_better": 0.0,
+  "precision_a": 0.99861,
+  "precision_b": 0.99861,
+  "recall_a": 0.96732,
+  "recall_b": 0.96732,
+  "singleton_f_a": 0.9933,
+  "singleton_f_b": 0.9933
+ },
+ "India": {
+  "f05_a": 0.9852,
+  "f05_b": 0.9852,
+  "delta": 0.0,
+  "ci95": [
+   0.0,
+   0.0
+  ],
+  "p_b_better": 0.0,
+  "precision_a": 0.99859,
+  "precision_b": 0.99859,
+  "recall_a": 0.95779,
+  "recall_b": 0.95779,
+  "singleton_f_a": 0.99467,
+  "singleton_f_b": 0.99467
+ },
+ "ACCEPT": false
+}

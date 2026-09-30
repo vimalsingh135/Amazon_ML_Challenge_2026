@@ -1,0 +1,34 @@
+grid 180 global ratio {'margin': 0.05, 'floor': 0.0, 'm0': 0.2, 'empty_bias': 2.5, 'exclusive': True, 'coh': 1.0}
+0 india-tuned {'kind': 'ratio', 'margin': 0.0, 'floor': 0.0, 'm0': 0.5, 'empty_bias': 2.5, 'exclusive': True, 'coh': 0.5} train 0.98534
+1 india-tuned {'kind': 'ratio', 'margin': 0.0, 'floor': 0.0, 'm0': 1.0, 'empty_bias': 1.5, 'exclusive': True, 'coh': 0.5} train 0.98536
+{
+ "run": "v6ce",
+ "india_global": 0.9851972631545535,
+ "india_tuned": 0.9851351854046608,
+ "delta": -6.207774989259047e-05,
+ "ci95": [
+  -0.0001759245454437346,
+  4.659190879218936e-05
+ ],
+ "chosen": [
+  {
+   "kind": "ratio",
+   "margin": 0.0,
+   "floor": 0.0,
+   "m0": 0.5,
+   "empty_bias": 2.5,
+   "exclusive": true,
+   "coh": 0.5
+  },
+  {
+   "kind": "ratio",
+   "margin": 0.0,
+   "floor": 0.0,
+   "m0": 1.0,
+   "empty_bias": 1.5,
+   "exclusive": true,
+   "coh": 0.5
+  }
+ ],
+ "lb_effect": -2.9e-05
+}

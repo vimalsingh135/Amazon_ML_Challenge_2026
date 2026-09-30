@@ -1,0 +1,79 @@
+{
+ "run": "v6ce",
+ "p": {
+  "all": 0.9872645310504178,
+  "India": 0.9851817043138535,
+  "US": 0.9886496527924095,
+  "params": [
+   {
+    "margin": 0.0,
+    "floor": 0.0,
+    "m0": 0.2,
+    "empty_bias": 2.5,
+    "exclusive": true,
+    "coh": 1.0
+   },
+   {
+    "margin": 0.0,
+    "floor": 0.0,
+    "m0": 0.5,
+    "empty_bias": 2.0,
+    "exclusive": true,
+    "coh": 1.0
+   }
+  ]
+ },
+ "p_ctrl": {
+  "all": 0.9871959222546203,
+  "US": 0.9885426989474728,
+  "India": 0.9851707554992262,
+  "params": [
+   {
+    "margin": 0.0,
+    "floor": 0.0,
+    "m0": 0.0,
+    "empty_bias": 1.5,
+    "exclusive": true,
+    "coh": 1.0
+   },
+   {
+    "margin": 0.0,
+    "floor": 0.0,
+    "m0": 0.0,
+    "empty_bias": 1.5,
+    "exclusive": true,
+    "coh": 1.0
+   }
+  ]
+ },
+ "p_coh": {
+  "all": 0.9872919207389808,
+  "India": 0.985148072791929,
+  "US": 0.9887176228153257,
+  "params": [
+   {
+    "margin": 0.0,
+    "floor": 0.0,
+    "m0": 0.0,
+    "empty_bias": 1.5,
+    "exclusive": true,
+    "coh": 1.0
+   },
+   {
+    "margin": 0.0,
+    "floor": 0.0,
+    "m0": 0.0,
+    "empty_bias": 1.5,
+    "exclusive": true,
+    "coh": 1.0
+   }
+  ]
+ },
+ "delta_coh_vs_p": {
+  "mean": 2.7389688563146813e-05,
+  "ci95": [
+   -6.936743915861648e-05,
+   0.00013199070933439682
+  ]
+ }
+}

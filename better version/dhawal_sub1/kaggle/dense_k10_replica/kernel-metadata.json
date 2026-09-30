@@ -1,0 +1,4 @@
+{"id": "dhawal2209/almc-dense", "title": "almc-dense", "code_file": "dense.py", "language": "python",
+ "kernel_type": "script", "is_private": true, "enable_gpu": true, "enable_internet": false, "machine_shape": "NvidiaTeslaT4",
+ "dataset_sources": ["dhawal2209/almc-dense-data", "dhawal2209/almc-bi-model"], "competition_sources": [],
+ "kernel_sources": ["dhawal2209/almc-ce-train"]}

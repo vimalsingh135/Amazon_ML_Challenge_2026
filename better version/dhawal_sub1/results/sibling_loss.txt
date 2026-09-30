@@ -1,0 +1,68 @@
+shape: (2, 3)
+┌─────────┬───────────┬───────┐
+│ country ┆ sib_share ┆ len   │
+│ ---     ┆ ---       ┆ ---   │
+│ str     ┆ f64       ┆ u32   │
+╞═════════╪═══════════╪═══════╡
+│ India   ┆ 0.0045    ┆ 59911 │
+│ US      ┆ 0.0039    ┆ 90089 │
+└─────────┴───────────┴───────┘
+shape: (4, 5)
+┌─────────┬───────┬───────┬─────────┬────────────┐
+│ country ┆ sib   ┆ n_s1  ┆ f05     ┆ loss_share │
+│ ---     ┆ ---   ┆ ---   ┆ ---     ┆ ---        │
+│ str     ┆ bool  ┆ u32   ┆ f64     ┆ f64        │
+╞═════════╪═══════╪═══════╪═════════╪════════════╡
+│ India   ┆ false ┆ 59644 ┆ 0.98522 ┆ 0.4626     │
+│ India   ┆ true  ┆ 267   ┆ 0.98215 ┆ 0.0025     │
+│ US      ┆ false ┆ 89740 ┆ 0.9887  ┆ 0.532      │
+│ US      ┆ true  ┆ 349   ┆ 0.98448 ┆ 0.0028     │
+└─────────┴───────┴───────┴─────────┴────────────┘
+shape: (41, 6)
+┌─────────┬───────┬────────────────┬──────────────┬──────┬───────────┐
+│ country ┆ sib   ┆ err            ┆ hno          ┆ n    ┆ per_1k_s1 │
+│ ---     ┆ ---   ┆ ---            ┆ ---          ┆ ---  ┆ ---       │
+│ str     ┆ bool  ┆ str            ┆ str          ┆ u32  ┆ f64       │
+╞═════════╪═══════╪════════════════╪══════════════╪══════╪═══════════╡
+│ India   ┆ false ┆ decision_fn    ┆ both_missing ┆ 241  ┆ 4.04      │
+│ India   ┆ false ┆ decision_fn    ┆ diff         ┆ 150  ┆ 2.51      │
+│ India   ┆ false ┆ decision_fn    ┆ edit1        ┆ 95   ┆ 1.59      │
+│ India   ┆ false ┆ decision_fn    ┆ one_missing  ┆ 2238 ┆ 37.52     │
+│ India   ┆ false ┆ decision_fn    ┆ same         ┆ 349  ┆ 5.85      │
+│ India   ┆ false ┆ fp             ┆ both_missing ┆ 10   ┆ 0.17      │
+│ India   ┆ false ┆ fp             ┆ diff         ┆ 48   ┆ 0.8       │
+│ India   ┆ false ┆ fp             ┆ edit1        ┆ 20   ┆ 0.34      │
+│ India   ┆ false ┆ fp             ┆ one_missing  ┆ 81   ┆ 1.36      │
+│ India   ┆ false ┆ fp             ┆ same         ┆ 88   ┆ 1.48      │
+│ India   ┆ false ┆ retrieval_miss ┆ both_missing ┆ 652  ┆ 10.93     │
+│ India   ┆ false ┆ retrieval_miss ┆ diff         ┆ 719  ┆ 12.05     │
+│ India   ┆ false ┆ retrieval_miss ┆ edit1        ┆ 390  ┆ 6.54      │
+│ India   ┆ false ┆ retrieval_miss ┆ one_missing  ┆ 1708 ┆ 28.64     │
+│ India   ┆ false ┆ retrieval_miss ┆ same         ┆ 2213 ┆ 37.1      │
+│ India   ┆ true  ┆ decision_fn    ┆ one_missing  ┆ 18   ┆ 67.42     │
+│ India   ┆ true  ┆ decision_fn    ┆ same         ┆ 4    ┆ 14.98     │
+│ India   ┆ true  ┆ fp             ┆ same         ┆ 1    ┆ 3.75      │
+│ India   ┆ true  ┆ retrieval_miss ┆ diff         ┆ 4    ┆ 14.98     │
+│ India   ┆ true  ┆ retrieval_miss ┆ one_missing  ┆ 8    ┆ 29.96     │
+│ India   ┆ true  ┆ retrieval_miss ┆ same         ┆ 16   ┆ 59.93     │
+│ US      ┆ false ┆ decision_fn    ┆ diff         ┆ 462  ┆ 5.15      │
+│ US      ┆ false ┆ decision_fn    ┆ edit1        ┆ 317  ┆ 3.53      │
+│ US      ┆ false ┆ decision_fn    ┆ one_missing  ┆ 5075 ┆ 56.55     │
+│ US      ┆ false ┆ decision_fn    ┆ same         ┆ 408  ┆ 4.55      │
+│ US      ┆ false ┆ fp             ┆ diff         ┆ 57   ┆ 0.64      │
+│ US      ┆ false ┆ fp             ┆ edit1        ┆ 74   ┆ 0.82      │
+│ US      ┆ false ┆ fp             ┆ one_missing  ┆ 124  ┆ 1.38      │
+│ US      ┆ false ┆ fp             ┆ same         ┆ 93   ┆ 1.04      │
+│ US      ┆ false ┆ retrieval_miss ┆ diff         ┆ 326  ┆ 3.63      │
+│ US      ┆ false ┆ retrieval_miss ┆ edit1        ┆ 426  ┆ 4.75      │
+│ US      ┆ false ┆ retrieval_miss ┆ one_missing  ┆ 2871 ┆ 31.99     │
+│ US      ┆ false ┆ retrieval_miss ┆ same         ┆ 332  ┆ 3.7       │
+│ US      ┆ true  ┆ decision_fn    ┆ edit1        ┆ 2    ┆ 5.73      │
+│ US      ┆ true  ┆ decision_fn    ┆ one_missing  ┆ 12   ┆ 34.38     │
+│ US      ┆ true  ┆ decision_fn    ┆ same         ┆ 2    ┆ 5.73      │
+│ US      ┆ true  ┆ fp             ┆ diff         ┆ 3    ┆ 8.6       │
+│ US      ┆ true  ┆ fp             ┆ one_missing  ┆ 3    ┆ 8.6       │
+│ US      ┆ true  ┆ retrieval_miss ┆ diff         ┆ 2    ┆ 5.73      │
+│ US      ┆ true  ┆ retrieval_miss ┆ edit1        ┆ 3    ┆ 8.6       │
+│ US      ┆ true  ┆ retrieval_miss ┆ one_missing  ┆ 26   ┆ 74.5      │
+└─────────┴───────┴────────────────┴──────────────┴──────┴───────────┘
