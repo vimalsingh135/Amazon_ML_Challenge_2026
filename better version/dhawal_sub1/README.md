@@ -1,4 +1,4 @@
-# `dhawal_sub1/` — Dhawal's lane on top of final2 / final2_fr (2026-09-27)
+# `vimal_sub1/` — vimal's lane on top of final2 / final2_fr (2026-09-27)
 
 Branch `dhawal-sub1`, created from `final2_fr` (LB 0.988). Everything here builds on Zayaan's `final2` code (`er.*`,
 unchanged) and Balaji's France category-swap rule. No data or model files are committed. Kaggle tokens live in
