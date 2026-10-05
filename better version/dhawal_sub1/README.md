@@ -1,15 +1,15 @@
 # `vimal_sub1/` — vimal's lane on top of final2 / final2_fr (2026-09-27)
 
-Branch `dhawal-sub1`, created from `final2_fr` (LB 0.988). Everything here builds on Zayaan's `final2` code (`er.*`,
-unchanged) and Balaji's France category-swap rule. No data or model files are committed. Kaggle tokens live in
+Branch `vimal-sub1`, created from `final2_fr` (LB 0.988). Everything here builds on piyush's `final2` code (`er.*`,
+unchanged) and aryan's France category-swap rule. No data or model files are committed. Kaggle tokens live in
 `~/.kaggle/` only.
 
 ## 1. Submission #1 (18:00 IST): `SUB1_ours_usin_fr0988`
 
 | Part | Source | Evidence |
 |---|---|---|
-| **US/India** | **our v6cd replica**: Zayaan's v6cd recipe (bi-encoder dense retrieval + CE scoring + dense stacker), with the bi-encoder and cross-encoder **retrained on our own Kaggle accounts** from his code | val F0.5 **0.99007** (US 0.98995, India 0.99025) vs 0.98983 for Zayaan's v6cd (the US/India inside LB 0.986/0.988); gate vs v6ce +0.00277 [0.00259, 0.00295] |
-| **France** | **exactly the LB-0.988 file** (final2 + Balaji's category-swap rule) | LB |
+| **US/India** | **our v6cd replica**: piyush's v6cd recipe (bi-encoder dense retrieval + CE scoring + dense stacker), with the bi-encoder and cross-encoder **retrained on our own Kaggle accounts** from his code | val F0.5 **0.99007** (US 0.98995, India 0.99025) vs 0.98983 for piyush's v6cd (the US/India inside LB 0.986/0.988); gate vs v6ce +0.00277 [0.00259, 0.00295] |
+| **France** | **exactly the LB-0.988 file** (final2 + aryan's category-swap rule) | LB |
 
 Changes vs the 0.988 file: US/India only, +6,860 / −5,790 pairs. Official validator PASS. Expected LB about 0.988 + 0.0002,
 so it may still show as 0.988 at 3 decimals. **LB result: 0.988** (same as final2_fr, as predicted: a +0.0002 gain
@@ -27,8 +27,8 @@ Built by `kaggle/sub1_assemble/sub1_kernel.py` (Kaggle CPU: decision + write_sub
 then `scripts/sub1_clean.py` (France rows swapped back to the 0.988 file).
 
 ### Rejected before submitting: France K=20 dense additions
-Our France dense run at K=20 with Zayaan's filter (same house number + street ≥ 70), scored by our dense stacker, left
-only **174** pairs that were new vs 0.988 after Balaji's rule. Balaji's label-free `pifit` puts **84% of them as false**
+Our France dense run at K=20 with piyush's filter (same house number + street ≥ 70), scored by our dense stacker, left
+only **174** pairs that were new vs 0.988 after Balaji's rule. aryan's label-free `pifit` puts **84% of them as false**
 (his removal rule scored 94% false, i.e. correct to remove). So they were not added. France recall through wider
 dense retrieval is **not** the lever. France gains come from precision (Balaji's direction).
 
@@ -37,9 +37,9 @@ dense retrieval is **not** the lever. France gains come from precision (Balaji's
 | Step | Where | Code |
 |---|---|---|
 | Export CE / bi / dense inputs with Zayaan's `er.cross export-biencoder`, `er.dense export` | local (light) | `scripts/rep_export.py` |
-| CE (xlm-roberta-base, his `ce_train.py`) | `dhawal2209` | `kaggle/ce_train_xlmr` |
-| Bi-encoder (multilingual-e5-small, his `bi_train.py`, 1.2M FIT pairs, 89.5 min) | `codelearner00` | `kaggle/bi_train_e5small` |
-| Dense K=10 (his `dense.py`, bi lookup pinned to `bi_model/`) | `dhawal2209` | `kaggle/dense_k10_replica` |
+| CE (xlm-roberta-base, his `ce_train.py`) | `vimal2209` | `kaggle/ce_train_xlmr` |
+| Bi-encoder (multilingual-e5-small, his `bi_train.py`, 1.2M FIT pairs, 89.5 min) | `vimalsingh135` | `kaggle/bi_train_e5small` |
+| Dense K=10 (his `dense.py`, bi lookup pinned to `bi_model/`) | `vimal2209` | `kaggle/dense_k10_replica` |
 | merge → tune → gate (`er.dense merge`, `er.run tune`, `er.compare`) | local, now moved to Kaggle | `scripts/dense_variants.py`, `kaggle/eval_variants` |
 
 The replica came out slightly above the original: cosine cut 0.5854 vs 0.5908, fit1 pairs 2.06M vs 1.82M, val
@@ -80,7 +80,7 @@ Matches per S1 moved toward the true ~3.46 with every recall step. France's rema
 businesses (Balaji's direction), not recall.
 
 ## 4. Still running (results in `results/` when done)
-- Dense **K=20 / keep 99%** (`dhawal2209000`) and **K=50 / keep 99%** (`dhawal22092004`): supersets. `kaggle/eval_variants` carves
+- Dense **K=20 / keep 99%** (`vimal2209000`) and **K=50 / keep 99%** (`vimal22092004`): supersets. `kaggle/eval_variants` carves
   K ∈ {10,15,20,30,50} × keep ∈ {95,97,99}%, then merge → tune → gate vs our replica + held-out halves, on Kaggle CPU.
 - **Bi-encoder v2 with hard negatives** (837,826 triplets: highest-oof wrong candidate per FIT positive), plus its own dense K=20
   (`codelearner00`). Also e5-base and 2-epoch variants (for later days).
@@ -96,9 +96,9 @@ businesses (Balaji's direction), not recall.
 
 ## 6. Reproduce
 ```
-python dhawal_sub1/scripts/rep_export.py            # inputs (Zayaan's exporters)
+python vimal_sub1/scripts/rep_export.py            # inputs (piyush's exporters)
 # push kaggle/<folder> with scripts/kgn.py <acct> <parent> kernels push -p <folder>; rep_watch.py automates the chain
-python dhawal_sub1/scripts/dense_variants.py replica  # merge -> tune -> gate (or kaggle/eval_variants on Kaggle)
+python vimal_sub1/scripts/dense_variants.py replica  # merge -> tune -> gate (or kaggle/eval_variants on Kaggle)
 # kaggle/sub1_assemble -> scripts/sub1_clean.py      # submission #1
 ```
 Paths at the top of each script point at `E:/projects/Amazon ML challenge/.worktrees/...`. Adjust them for another machine.
